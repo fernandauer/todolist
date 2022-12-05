@@ -1,0 +1,68 @@
+:root {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 20rem;
+    background-image: linear-gradient(to right, #000, #6200ee);
+    color: #fff;
+}
+
+.sombra {
+    box-shadow: #fff 0 0 1rem;
+    padding: 1rem;
+    border-radius: 1.2rem 0;
+}
+
+#painel {
+    text-align: center;
+    width: 70rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+#painel input, button, li{
+    font-size: 2.5rem;
+}
+
+#painel input {
+    border-radius: 1.2rem 0 0 0;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    padding: 1rem 0;
+}
+
+#painel button {
+    background-color: #6200ee;
+    color: #fff;
+    border-radius: 0 0 1.2rem 0;
+    padding: 1rem;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#lista li {
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+#lista .close {
+    position: relative;
+    margin-left: 1rem;
+    top: .1rem;
+}
+
+
+
+
+
+ 
