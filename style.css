@@ -1,6 +1,6 @@
 :root {
     box-sizing: border-box;
-    font-size: 62.5%;
+    font-size: 50%;
 }
 
 body {
@@ -9,7 +9,7 @@ body {
     align-items: center;
 
     padding-top: 20rem;
-    background-image: linear-gradient(to right, #000, #6200ee);
+    background-image: linear-gradient(to right, #000, #00b6ee);
     color: #fff;
 }
 
@@ -26,6 +26,7 @@ body {
 
 h1 {
     font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #painel input, button, li{
@@ -41,7 +42,7 @@ h1 {
 }
 
 #painel button {
-    background-color: #6200ee;
+    background-color: #00b6ee;
     color: #fff;
     border-radius: 0 0 1.2rem 0;
     padding: 1rem;
